@@ -1,0 +1,16 @@
+name: RL
+channels:
+  - conda-forge
+  - defaults
+  
+dependencies:
+  - pip
+  - jupyterlab
+  - scipy
+  - ffmpeg-python
+
+  - pip:
+    - gym==0.26.2
+    - moviepy
+    - pygame
+    # - gym-toytext
